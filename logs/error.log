@@ -1,0 +1,86 @@
+2021-06-11T15:35:15.074+0800	[31mERROR[0m	controller/new.go:118	insert data error: pq: invalid input syntax for type timestamp with time zone: ""
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952
+2021-06-11T15:36:28.754+0800	[31mERROR[0m	controller/new.go:118	insert data error: pq: invalid input syntax for type timestamp with time zone: ""
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/home/phantom/public/go-path/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/phantom/public/go-path/pkg/mod/github.com/gin-gonic/gin@v1.7.2/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2887
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1952

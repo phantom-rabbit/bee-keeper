@@ -1,0 +1,53 @@
+{
+	"database": {
+		"default": {
+			"host": "127.0.0.1",
+			"port": "5432",
+			"user": "postgres",
+			"pwd": "postgres",
+			"name": "bee_keeper",
+			"max_idle_con": 5,
+			"max_open_con": 10,
+			"driver": "postgresql"
+		}
+	},
+	"app_id": "q3Ck3XqrnwcR",
+	"language": "cn",
+	"prefix": "admin",
+	"theme": "sword",
+	"store": {
+		"path": "./uploads",
+		"prefix": "uploads"
+	},
+	"title": "CuckooPayAdmin",
+	"logo": "CuckooPay",
+	"mini_logo": "CP",
+	"index": "/",
+	"login_url": "/login",
+	"debug": true,
+	"env": "local",
+	"info_log": "./logs/info.log",
+	"error_log": "./logs/error.log",
+	"access_log": "./logs/access.log",
+	"session_life_time": 7200,
+	"file_upload_engine": {
+		"name": "local"
+	},
+	"login_title": "CuckooPayAdmin",
+	"login_logo": "CuckooPayAdmin",
+	"auth_user_table": "goadmin_users",
+	"bootstrap_file_path": "/home/phantom/public/work/cuckoo-admin/bootstrap.go",
+	"go_mod_file_path": "/home/phantom/public/work/cuckoo-admin/go.mod",
+	"asset_root_path": "./public/",
+	"url_format": {
+		"info": "/info/:__prefix",
+		"detail": "/info/:__prefix/detail",
+		"create": "/new/:__prefix",
+		"delete": "/delete/:__prefix",
+		"export": "/export/:__prefix",
+		"edit": "/edit/:__prefix",
+		"show_edit": "/info/:__prefix/edit",
+		"show_create": "/info/:__prefix/new",
+		"update": "/update/:__prefix"
+	}
+}

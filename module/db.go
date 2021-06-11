@@ -27,7 +27,7 @@ func InitDatabaseConn(dsn db.Connection)  {
 }
 
 func setup()  {
-	if err := conn.AutoMigrate(&BeeNode{}); err != nil {
+	if err := conn.AutoMigrate(&BeeNode{}, &Node{}); err != nil {
 		panic(err)
 	}
 }

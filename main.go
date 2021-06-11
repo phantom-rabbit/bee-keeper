@@ -1,6 +1,7 @@
 package  main
 
 import (
+	"bee-keeper/api"
 	"bee-keeper/module"
 	"bee-keeper/pages"
 	"bee-keeper/tables"
@@ -22,6 +23,10 @@ func main() {
 	gin.SetMode(gin.ReleaseMode)
 	gin.DefaultWriter = ioutil.Discard
 	r := gin.Default()
+	//use := r.Use(cors.Cors())
+
+	r.Static("/static", "./html/static/")
+	r.GET("/connect_node", api.WsSsh)
 
 	template.AddComp(chartjs.NewChart())
 
@@ -36,6 +41,10 @@ func main() {
 	module.InitDatabaseConn(eng.PostgresqlConnection())
 
 	eng.HTML("GET", "/admin", pages.GetDashBoard)
+	eng.HTMLFile("GET", "/admin/ssh", "./html/ssh.html", map[string]interface{}{
+		"host": "127.0.0.1:9000",
+		"id": "1",
+	})
 	_ = r.Run(":9000")
 
 	quit := make(chan os.Signal, 1)
